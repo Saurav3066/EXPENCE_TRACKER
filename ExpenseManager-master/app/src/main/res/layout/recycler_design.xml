@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/expensedesign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Expense"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+        <TextView
+            android:id="@+id/amountdesign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rs. 0"
+            app:layout_constraintTop_toBottomOf="@id/expensedesign"
+            android:textColor="#F30000"
+            android:textSize="15sp"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>
